@@ -3,15 +3,15 @@
 //  RockPaperScissors
 //
 //  Created by Angus on 9/1/2021.
-//
+
 
 import UIKit
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
-    var myHand = ""
-    let hands = ["👊🏻", "✋🏻", "✌🏻"]
+    var myHand       = ""
+    let hands        = ["👊🏻", "✋🏻", "✌🏻"]
     let losesAgainst = ["👊🏻":"✌🏻", "✋🏻":"👊🏻", "✌🏻":"✋🏻"]
     
     override func viewDidLoad() {
